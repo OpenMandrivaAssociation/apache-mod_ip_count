@@ -8,7 +8,7 @@
 Summary:	Mod_ip_count is a DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	2.0
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	Apache License
 Group:		System/Servers
 # http://feh.holsman.net
@@ -24,8 +24,6 @@ Requires:	apache-conf >= 2.2.0
 Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 #BuildRequires:	apr_memcache-devel
-Provides:	apache2-mod_ip_count
-Obsoletes:	apache2-mod_ip_count
 Epoch:		1
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
