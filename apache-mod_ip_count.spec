@@ -25,7 +25,6 @@ Requires:	apache >= 2.2.0
 BuildRequires:	apache-devel >= 2.2.0
 #BuildRequires:	apr_memcache-devel
 Epoch:		1
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 mod_ip_count is a DoS prevention apache module. It works by
