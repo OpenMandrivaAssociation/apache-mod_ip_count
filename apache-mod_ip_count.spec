@@ -5,7 +5,7 @@
 
 %define svn_rev r353
 
-Summary:	Mod_ip_count is a DSO module for the apache web server
+Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	2.0
 Release:	%mkrel 6
