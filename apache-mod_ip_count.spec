@@ -40,7 +40,7 @@ to a server pool.
 
 sh ./autogen.sh
 
-%configure2_5x \
+%configure2_5x --localstatedir=/var/lib \
     --with-apxs=%{_sbindir}/apxs
 
 #%{_sbindir}/apxs -I. -I%{_includedir}/apr_memcache-0 -lapr_memcache -c %{mod_name}.c 
