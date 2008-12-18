@@ -42,8 +42,6 @@ cp %{SOURCE1} %{mod_conf}
 
 %{_sbindir}/apxs -c %{mod_name}.c 
 
-%make
-
 %install
 rm -rf %{buildroot}
 
