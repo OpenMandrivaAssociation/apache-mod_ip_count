@@ -8,7 +8,7 @@
 Summary:	DSO module for the apache web server
 Name:		apache-%{mod_name}
 Version:	2.0
-Release:	%mkrel 15
+Release:	%mkrel 16
 License:	Apache License
 Group:		System/Servers
 # http://feh.holsman.net
