@@ -13,7 +13,7 @@ License:	Apache License
 Group:		System/Servers
 # http://feh.holsman.net
 #URL:		http://svn.zilbo.com/svn/mod_ip_count/trunk/
-URL:		http://www.zilbo.com/
+URL:		https://www.zilbo.com/
 Source0: 	%{mod_name}-%{version}-%{svn_rev}.tar.bz2
 Source1:	%{mod_conf}
 Requires(pre): rpm-helper
